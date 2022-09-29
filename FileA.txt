@@ -17,3 +17,15 @@ git checkout <commit id of which commit you don't want>
 git log --all
 #it will show all the commit details 
 git checkout <commit id of which commit you want>
+
+#To revert changes after staging
+git rm --catched FileName.txt
+#remove the changes in ypur file and give
+git add .
+git status
+#if it shows head detached use "git checkout master" and try "git add ."
+git status
+
+#create branch cmd
+git checkout -b branchName
+
