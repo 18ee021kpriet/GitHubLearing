@@ -7,12 +7,4 @@ git add .
 git status
 git commit -m "first commit"
 
-#To go to previous version
-git log
-#it will show the commit details if you want to go to previous changes use below command
-git checkout <commit id of which commit you don't want>
 
-#To get again the reverted changes use
-git log --all
-#it will show all the commit details 
-git checkout <commit id of which commit you want>
