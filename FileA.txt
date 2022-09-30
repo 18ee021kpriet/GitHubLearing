@@ -29,3 +29,10 @@ git status
 #create branch cmd
 git checkout -b branchName
 
+#cmd to link local code to remote
+git remote add origin https://github.com/18ee021kpriet/GitHubLearing.git
+
+#cmd to push code from local to remote github
+ git push -u origin master
+
+#checkout to master branch and commit changes
