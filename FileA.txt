@@ -36,3 +36,9 @@ git remote add origin https://github.com/18ee021kpriet/GitHubLearing.git
  git push -u origin master
 
 #checkout to master branch and commit changes
+
+#clone git as another user go to git creare new account send invite from main git account and open visual studio and click clone project make sure that 
+the user had write access 
+
+#then change and commit changes
+go to git changes and commit and push 
